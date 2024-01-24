@@ -1,1 +1,1 @@
-const BACKEND_URL = 'http://localhost:4000';
+const BACKEND_URL = '3.15.184.197:4000';
