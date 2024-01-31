@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>Register Form</h1>
-    <form id="formData" action="/register" method="POST">
+    <form id="formData" action="${BACKEND_URL}/register" method="POST">
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" required><br>
 
@@ -28,7 +28,7 @@
     </form>
 </body>
 <script>
-    const URL = `/register`;
+    const URL = `${BACKEND_URL}/register`;
     const form = document.getElementById('formData');
     form.action = URL;
 </script>

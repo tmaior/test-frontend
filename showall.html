@@ -13,7 +13,7 @@
 
     <script>
         function fetchData() {
-            fetch(`/showall`)
+            fetch(`${BACKEND_URL}/showall`)
                 .then(response => response.json())
                 .then(data => {
                     const dataContainer = document.getElementById('dataContainer');

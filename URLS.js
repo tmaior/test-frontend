@@ -1,1 +1,1 @@
-const BACKEND_URL = '3.15.184.197:4000';
+const BACKEND_URL = 'test-keren.cl9r1j6eu8jg.us-east-2.rds.amazonaws.com:4000';
