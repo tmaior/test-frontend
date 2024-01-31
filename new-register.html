@@ -41,7 +41,7 @@
                 data[key] = value;
             });
 
-            const response = await fetch(`${BACKEND_URL}/register`, {
+            const response = await fetch(`/register`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
